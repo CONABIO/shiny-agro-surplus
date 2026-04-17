@@ -24,6 +24,7 @@ install2.r --error --skipinstalled -n "$NCPUS" \
     leaflet \
     RColorBrewer \
     shiny \
+    shinyjs \
     tidyverse \
     vegan
 
