@@ -16,7 +16,8 @@ function apt_install() {
 }
 
 apt_install \
-    libgdal-dev
+    libgdal-dev \
+    libudunits2-dev
 
 install2.r --error --skipinstalled -n "$NCPUS" \
     devtools \
